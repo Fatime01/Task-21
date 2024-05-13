@@ -5,5 +5,5 @@ function findAvarage(arr) {
     }
     return sum / arr.length;
 }
-const arr = [`1, 5, 10, 15, 20`];
-findAvarage(arr);
+const arr = [1, 5, 10, 15, 20];
+console.log(findAvarage(arr));
